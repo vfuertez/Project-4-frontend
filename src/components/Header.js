@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 function Header(props){
     return(
         <Link to="/">
-        <div>
+        <div className='header'>
             <h1>CodeProject</h1>
         </div>
         </Link>

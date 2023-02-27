@@ -7,6 +7,7 @@ input {
     border: none;
     background: #f2f2f2;
     font-size: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
 .index-input {
@@ -23,3 +24,8 @@ input {
     margin-top: 5px;
 }
 
+@media (max-width: 500px){
+    input {
+        width: 90%;
+    }
+}

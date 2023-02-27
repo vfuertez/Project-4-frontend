@@ -10,10 +10,10 @@ const Index = (props) => {
         <Form action="/create" method="post">
           <div >
             
-            <input type="text" name="name" placeholder="Name" required /> 
-            <input type="text" name="repo1" placeholder="Front-End" /> 
-            <input type="text" name="repo2" placeholder="Back-End" />
-            <input type="text" name="web" placeholder="Website" /><br></br>
+            <input type="text" name="name" placeholder="Name" required autocomplete='off' /> 
+            <input type="text" name="repo1" placeholder="Front-End" autocomplete='off' /> 
+            <input type="text" name="repo2" placeholder="Back-End" autocomplete='off' />
+            <input type="text" name="web" placeholder="Website"  autocomplete='off'/><br></br>
             <button>Add Project</button>
           </div>
         </Form>
