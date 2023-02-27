@@ -7,6 +7,7 @@ const Show = (props) => {
   return (
     <>
       <div className="show">
+        
         <div className="show_name">
           <h2>{post.name}</h2>
         </div>

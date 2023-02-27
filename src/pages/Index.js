@@ -11,8 +11,8 @@ const Index = (props) => {
           <div >
             
             <input type="text" name="name" placeholder="Name" required autocomplete='off' /> 
-            <input type="text" name="repo1" placeholder="Front-End" autocomplete='off' /> 
-            <input type="text" name="repo2" placeholder="Back-End" autocomplete='off' />
+            <input type="text" name="repo1" placeholder="Repo-1" autocomplete='off' /> 
+            <input type="text" name="repo2" placeholder="Repo-2" autocomplete='off' />
             <input type="text" name="web" placeholder="Website"  autocomplete='off'/><br></br>
             <button>Add Project</button>
           </div>

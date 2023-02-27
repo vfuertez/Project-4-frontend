@@ -1,6 +1,6 @@
 .show{
     display: flex;
-    overflow: hidden;
+    overflow:auto;
     flex-direction: column;
     text-align: center;
     font-size: 25px;
