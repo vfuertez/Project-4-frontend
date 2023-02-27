@@ -1,0 +1,35 @@
+input {
+    width: 250px;
+    padding: 5px;
+    border-radius: 3px;
+    appearance: none;
+    outline: none;
+    border: none;
+    background: #f2f2f2;
+}
+
+.index-input {
+   text-align: center;
+   margin: auto;
+}
+
+input {
+   
+    display: block;
+    width: 70%;
+   margin: auto;
+   height: 35px;
+    margin-top: 5px;
+}
+
+.post {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.post-child {
+    outline: 5px solid green;
+    width: 60%;
+    margin: auto;
+}

@@ -1,0 +1,18 @@
+@import 'show.css';
+@import 'header.css';
+@import 'index.css';
+@import 'post.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+width: 100%;
+min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
