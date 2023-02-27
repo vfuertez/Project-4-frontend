@@ -1,0 +1,35 @@
+.show{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    border: 1px solid red;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.show_a:hover {
+    color: red;
+}
+
+.show_name {
+    margin-bottom: 20px;
+}
+
+.update_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.delete_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.show_input_container {
+    margin-top: 50px;
+}

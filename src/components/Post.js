@@ -11,9 +11,10 @@ const Post = (props) => {
         <h1>{post.name}</h1>
       </Link></div>
       <div className='post2'>
-      <p>{post.repo1}</p>
-      <p>{post.repo2}</p>
-      <p>{post.web}</p>
+      <a className='post2_link' href={post.repo1} target="_blank" rel="noopener noreferrer"> {post.repo1}</a>
+      <a className='post2_link' href={post.repo2} target="_blank" rel="noopener noreferrer"> {post.repo2}</a>
+      <a className='post2_link' href={post.web} target="_blank" rel="noopener noreferrer"> {post.web}</a>
+     
       </div>
       </div>
     </div>

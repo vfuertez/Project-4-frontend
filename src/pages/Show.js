@@ -1,21 +1,44 @@
-import { Link, useLoaderData, Form } from 'react-router-dom'
+import { useLoaderData, Form } from 'react-router-dom'
+
 
 const Show = (props) => {
   const post = useLoaderData()
 
   return (
     <>
-      <div>
-        <h2>{post.name}</h2>
-        <a href={post.repo1} target="_blank" rel="noopener noreferrer">
-          {' '}
-          {post.repo1}{' '}
+      <div className="show">
+        <div className="show_name">
+          <h2>{post.name}</h2>
+        </div>
+        <a
+          className="show_a"
+          href={post.repo1}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {post.repo1}
         </a>
-        <h3>{post.repo2}</h3>
-        <h3>{post.web}</h3>
+        <a
+          className="show_a"
+          href={post.repo2}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {' '}
+          {post.repo2}
+        </a>
+        <a
+          className="show_a"
+          href={post.web}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {' '}
+          {post.web}
+        </a>
       </div>
 
-      <div>
+      <div className='show_input_container'>
         <Form action={`/update/${post.id}`} method="post">
           <input
             type="text"
@@ -41,17 +64,16 @@ const Show = (props) => {
             placeholder="website"
             defaultValue={post.web}
           />
-          <button>Update</button>
+          <div className="update_container">
+            <button className="update_btn">Update</button>
+          </div>
         </Form>
-
-        <Form action={`/delete/${post.id}`} method="post">
-            <button>Delete</button>
-        </Form>
+        <div className="delete_container">
+          <Form action={`/delete/${post.id}`} method="post">
+            <button >Delete</button>
+          </Form>
+        </div>
       </div>
-
-      <Link to="/">
-        <button> Main Page</button>
-      </Link>
     </>
   )
 }

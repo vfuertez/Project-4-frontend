@@ -2,21 +2,52 @@
 @import 'header.css';
 @import 'index.css';
 @import 'post.css';
+@import 'https://unpkg.com/open-props';
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-width: 100%;
-min-height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+button {
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background: 0 0;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 0.14s ease-out;
+  white-space: nowrap;
+}
+
+button:hover {
+  box-shadow: 4px 4px 0 #000;
+  transform: translate(-4px, -4px);
+}
+
+button:focus-visible {
+  outline-offset: 1px;
 }

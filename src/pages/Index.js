@@ -7,14 +7,14 @@ const Index = (props) => {
   return (
     <>
       <div className="index-input">
-        <h3> Add Project</h3>
         <Form action="/create" method="post">
           <div >
-            <input type="text" name="name" placeholder="name" required /> 
-            <input type="text" name="repo1" placeholder="Repo1" /> 
-            <input type="text" name="repo2" placeholder="Repo2" />
-            <input type="text" name="web" placeholder="website" />
-            <button>Add</button>
+            
+            <input type="text" name="name" placeholder="Name" required /> 
+            <input type="text" name="repo1" placeholder="Front-End" /> 
+            <input type="text" name="repo2" placeholder="Back-End" />
+            <input type="text" name="web" placeholder="Website" /><br></br>
+            <button>Add Project</button>
           </div>
         </Form>
       </div>

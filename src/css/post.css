@@ -2,6 +2,7 @@
     text-align: center;
     margin: auto;
     margin-top: 30px;
+    
 }
 
 .post-child {
@@ -11,6 +12,8 @@
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .post1 {
@@ -21,4 +24,18 @@
 .post2 {
     width: 50%;
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.post2_link {
+    color:black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.post2_link:hover {
+    color:red;
+    cursor: pointer;
 }
