@@ -1,0 +1,24 @@
+.post {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.post-child {
+    outline: 1px solid green;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.post1 {
+    width: 49%;
+    text-align: left;
+}
+
+.post2 {
+    width: 50%;
+    text-align: right;
+}
