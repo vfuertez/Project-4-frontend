@@ -15,7 +15,8 @@ body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(255, 255, 255);
+  background-image: url(https://images.pexels.com/photos/403575/pexels-photo-403575.jpeg);
+  background-size:cover;
 }
 
 a {
@@ -53,3 +54,8 @@ button:focus-visible {
   outline-offset: 1px;
 }
 
+@media (max-width: 500px){
+  body {
+    background-size: auto;
+  }
+}
