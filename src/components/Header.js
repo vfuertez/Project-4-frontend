@@ -4,7 +4,7 @@ function Header(props){
     return(
         <Link to="/">
         <div className='header'>
-            <h1>CodeProject</h1>
+            <h1>Project Repo</h1>
         </div>
         </Link>
     )

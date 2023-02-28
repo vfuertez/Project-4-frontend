@@ -21,12 +21,17 @@
     text-align: left;
 }
 
+.post1 h1:hover {
+    color:red;
+}
+
 .post2 {
     width: 40%;
     text-align: right;
     display: flex;
     flex-direction: column;
     padding: 7px;
+    white-space: nowrap;
 }
 
 .post2_link {
@@ -41,7 +46,7 @@
 }
 
 .post1 h1 {
-    color: rgba(121, 56, 143, 0.886);
+    color: rgb(3, 113, 164);
 }
 
 @media (max-width: 500px) {

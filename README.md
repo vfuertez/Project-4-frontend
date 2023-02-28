@@ -1,4 +1,4 @@
-# CodeProject
+# Project Repo
 
 #### An app to keep track and organize of all of your personal app and projects in one place.  
 
